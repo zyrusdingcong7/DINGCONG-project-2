@@ -72,6 +72,15 @@ a { color: inherit; text-decoration: none; }
 .stats-grid strong, .stats-grid span { display: block; }
 .stats-grid strong { font-family: "Manrope", sans-serif; font-size: 34px; }
 .stats-grid span { margin-top: 5px; color: #bed1c7; font-size: 14px; }
+.pillars-section { padding: 88px 0; background: #fdfcf7; }
+.pillars-heading { text-align: center; margin-bottom: 38px; }
+.pillars-heading h2 { margin: 10px 0 0; font-family: "Manrope", sans-serif; font-size: 42px; letter-spacing: -1.8px; }
+.pillars-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.pillar-card { min-height: 260px; padding: 32px 28px 28px; border-right: 1px solid var(--line); }
+.pillar-card:last-child { border-right: 0; }
+.pillar-number { width: 46px; height: 46px; display: grid; place-items: center; border: 1px solid #cbd7c5; border-radius: 50%; color: var(--green); font-family: "Manrope", sans-serif; font-size: 13px; font-weight: 800; }
+.pillar-card h3 { margin: 24px 0 12px; font-family: "Manrope", sans-serif; font-size: 20px; }
+.pillar-card p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.72; }
 .section { padding: 86px 0 100px; }
 .section-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 32px; }
 .section-heading h2, .cta h2, .page-hero h1 { margin: 10px 0 0; font-family: "Manrope", sans-serif; font-size: 42px; letter-spacing: -1.8px; }
