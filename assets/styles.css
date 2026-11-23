@@ -81,6 +81,14 @@ a { color: inherit; text-decoration: none; }
 .pillar-number { width: 46px; height: 46px; display: grid; place-items: center; border: 1px solid #cbd7c5; border-radius: 50%; color: var(--green); font-family: "Manrope", sans-serif; font-size: 13px; font-weight: 800; }
 .pillar-card h3 { margin: 24px 0 12px; font-family: "Manrope", sans-serif; font-size: 20px; }
 .pillar-card p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.72; }
+.compass-section { padding: 88px 0; background: var(--cream); }
+.compass-heading { text-align: center; margin-bottom: 38px; }
+.compass-heading h2 { margin: 10px 0 0; font-family: "Manrope", sans-serif; font-size: 42px; letter-spacing: -1.8px; }
+.compass-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
+.compass-card { min-height: 300px; position: relative; padding: 38px 42px; border: 1px solid var(--line); border-radius: 14px; background: white; }
+.compass-label { display: inline-grid; width: 38px; height: 38px; place-items: center; border-radius: 50%; background: #edf3df; color: var(--green); font-size: 11px; font-weight: 800; }
+.compass-card h3 { margin: 22px 0 14px; color: var(--green); font-family: "Manrope", sans-serif; font-size: 28px; }
+.compass-card p { margin: 0; color: #53655d; font-size: 16px; line-height: 1.85; }
 .section { padding: 86px 0 100px; }
 .section-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 32px; }
 .section-heading h2, .cta h2, .page-hero h1 { margin: 10px 0 0; font-family: "Manrope", sans-serif; font-size: 42px; letter-spacing: -1.8px; }
@@ -166,6 +174,15 @@ a { color: inherit; text-decoration: none; }
   .stats-grid { height: auto; grid-template-columns: repeat(2, 1fr); padding: 24px 0; }
   .stats-grid div { padding: 18px 5px; }
   .stats-grid div:nth-child(2) { border-right: 0; }
+  .pillars-section { padding: 64px 0; }
+  .pillars-heading h2 { font-size: 36px; }
+  .pillars-grid { grid-template-columns: 1fr; }
+  .pillar-card { min-height: 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  .pillar-card:last-child { border-bottom: 0; }
+  .compass-section { padding: 64px 0; }
+  .compass-heading h2 { font-size: 36px; }
+  .compass-grid { grid-template-columns: 1fr; }
+  .compass-card { min-height: 0; padding: 30px 26px; }
   .section { padding: 64px 0; }
   .section-heading { align-items: flex-start; }
   .section-heading h2, .cta h2, .page-hero h1 { font-size: 36px; }
