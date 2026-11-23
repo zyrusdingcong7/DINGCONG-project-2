@@ -89,6 +89,23 @@ a { color: inherit; text-decoration: none; }
 .compass-label { display: inline-grid; width: 38px; height: 38px; place-items: center; border-radius: 50%; background: #edf3df; color: var(--green); font-size: 11px; font-weight: 800; }
 .compass-card h3 { margin: 22px 0 14px; color: var(--green); font-family: "Manrope", sans-serif; font-size: 28px; }
 .compass-card p { margin: 0; color: #53655d; font-size: 16px; line-height: 1.85; }
+.programs-section { padding: 88px 0; background: white; }
+.programs-heading { max-width: 760px; margin: 0 auto 52px; text-align: center; }
+.programs-heading h2 { margin: 10px 0 14px; font-family: "Manrope", sans-serif; font-size: 42px; letter-spacing: -1.8px; }
+.programs-heading > p { margin: 0 auto; max-width: 650px; color: var(--muted); line-height: 1.7; }
+.program-links { display: flex; justify-content: center; gap: 12px; margin-top: 24px; }
+.program-links a { display: inline-flex; align-items: center; gap: 12px; padding: 12px 16px; border: 1px solid var(--line); border-radius: 8px; color: var(--green); font-size: 14px; font-weight: 700; }
+.college-block { margin-top: 44px; }
+.college-block > h3 { margin: 0 0 22px; padding-bottom: 14px; border-bottom: 1px solid var(--line); font-family: "Manrope", sans-serif; font-size: 24px; }
+.program-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.program-card { min-height: 280px; padding: 26px; border: 1px solid var(--line); border-radius: 12px; background: #fdfcf7; }
+.program-type { display: inline-flex; padding: 7px 9px; border-radius: 6px; background: #edf3df; color: var(--green); font-size: 11px; font-weight: 800; letter-spacing: .5px; }
+.program-card h4 { margin: 16px 0 10px; font-family: "Manrope", sans-serif; font-size: 19px; }
+.program-card > p { min-height: 70px; margin: 0 0 16px; color: var(--muted); line-height: 1.65; }
+.program-detail { display: flex; flex-direction: column; gap: 5px; margin-bottom: 12px; color: var(--muted); font-size: 13px; }
+.career-tags { display: flex; flex-wrap: wrap; gap: 7px; }
+.career-tags span { padding: 6px 8px; border-radius: 20px; background: white; border: 1px solid var(--line); color: #52635b; font-size: 11px; }
+.criminology-card { max-width: 560px; }
 .section { padding: 86px 0 100px; }
 .section-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 32px; }
 .section-heading h2, .cta h2, .page-hero h1 { margin: 10px 0 0; font-family: "Manrope", sans-serif; font-size: 42px; letter-spacing: -1.8px; }
@@ -183,6 +200,14 @@ a { color: inherit; text-decoration: none; }
   .compass-heading h2 { font-size: 36px; }
   .compass-grid { grid-template-columns: 1fr; }
   .compass-card { min-height: 0; padding: 30px 26px; }
+  .programs-section { padding: 64px 0; }
+  .programs-heading h2 { font-size: 36px; }
+  .program-links { flex-direction: column; }
+  .program-links a { justify-content: space-between; }
+  .college-block > h3 { font-size: 21px; }
+  .program-grid { grid-template-columns: 1fr; }
+  .program-card { min-height: 0; }
+  .program-card > p { min-height: 0; }
   .section { padding: 64px 0; }
   .section-heading { align-items: flex-start; }
   .section-heading h2, .cta h2, .page-hero h1 { font-size: 36px; }
